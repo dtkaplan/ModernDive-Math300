@@ -1,4 +1,4 @@
-(ref:inferpart) Statistical Inference with `infer`
+(ref:inferpart) Statistical Inference with `infer` DROP `INFER`
 
 ```{r echo=FALSE, results="asis", purl=FALSE}
 if (is_latex_output()) {
@@ -8,7 +8,7 @@ if (is_latex_output()) {
 }
 ```
 
-# Sampling {#sampling}
+# Sampling  MOSTLY DELETE {#sampling}
 
 ```{r setup_infer, include=FALSE, purl=FALSE}
 # Used to define Learning Check numbers:

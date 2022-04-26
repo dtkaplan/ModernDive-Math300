@@ -54,7 +54,11 @@ library(stringr)
 library(scales)
 ```
 
+## CHANGES for Math 300
 
+1. Integrate a project to use spreadsheet to input archival data. Divide students up into groups of 5 and require each individual to create their own spreadsheet with, say, 20 cases. Then the group must integrate their individual spreadsheets into a group's 100 cases. Get appropriate topics from history department.
+
+2. Add wide-versus-long section. Use World Bank data as the Political Science department requested. 
 
 
 

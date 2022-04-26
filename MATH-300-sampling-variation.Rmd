@@ -1,0 +1,5 @@
+# Math 300 Sampling variability
+
+Issues arising from sampling variation. 
+
+Maybe pull in some things for SIDS::Sampling, but introduce using R^2^ and F per *Compact inference*

@@ -200,7 +200,17 @@ Let's now put the theory of the grammar of graphics into practice.
 
 
 
+## Stats 300 proposed changes
 
+Delete histograms and boxplots. Substitute density and violin.
+
+Add choropleths with some colorBrewer stuff about scales.
+
+Add log scales and tables as a good visualization when there are order-of-magnitude differences.
+
+Add a unit on how many digits.
+
+Think about what to do about barplots.
 
 ## Five named graphs - the 5NG {#FiveNG}
 
@@ -479,7 +489,7 @@ Linegraphs, just like scatterplots, display the relationship between two numeric
 
 
 
-## 5NG#3: Histograms {#histograms}
+## 5NG#3: Histograms DELETE {#histograms}
 
 Let's consider the `temp` variable in the `weather` data frame once again, but unlike with the linegraphs in Section \@ref(linegraphs), let's say we don't care about its relationship with time, but rather we only care about how the values of `temp` *distribute*. In other words:
 
@@ -693,7 +703,7 @@ Observe in both Figures \@ref(fig:facethistogram) and \@ref(fig:facethistogram2)
 
 
 
-## 5NG#4: Boxplots {#boxplots}
+## 5NG#4: Boxplots DELETE {#boxplots}
 
 ```{r, echo=FALSE, purl=FALSE}
 n_nov <- weather %>%
@@ -773,7 +783,7 @@ quartile_3 <- quartiles[3] %>% round(3)
 Furthermore, in the rightmost plot of Figure \@ref(fig:nov2), we see the *whiskers* \index{boxplots!whiskers} of the boxplot. The whiskers stick out from either end of the box all the way to the minimum and maximum observed temperatures of `r min_nov`&deg;F and `r max_nov`&deg;F, respectively. However, the whiskers don't always extend to the smallest and largest observed values as they do here. They in fact extend no more than 1.5 $\times$ the interquartile range from either end of the box. In this case of the November temperatures, no more than 1.5 $\times$ `r (quartiles[3] - quartiles[1]) %>% round(3)`&deg;F = `r (1.5*(quartiles[3] - quartiles[1])) %>% round(3)`&deg;F from either end of the box. Any observed values outside this range get marked with points called *outliers*, which we'll see in the next section.
 
 
-### Boxplots via `geom_boxplot` {#geomboxplot}
+### Boxplots via `geom_boxplot` DELETE {#geomboxplot}
 
 Let's now create a side-by-side boxplot \index{boxplots!side-by-side} of hourly temperatures split by the 12 months as we did previously with the faceted histograms. We do this by mapping the `month` variable to the x-position aesthetic, the `temp` variable to the y-position aesthetic, and by adding a `geom_boxplot()` layer:
 

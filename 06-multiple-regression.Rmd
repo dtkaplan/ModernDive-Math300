@@ -954,6 +954,16 @@ regression_points %>%
 ```
 
 
+## CHANGES FOR Math 300: Prediction
+
+Section on prediction error
+
+## CHANGES FOR Math 300: Classifiers
+
+CART and logistic regression.
+
+Threshold, confusion matrix, sensitivity, specificity, accuracy [boo!], ROC
+
 
 
 

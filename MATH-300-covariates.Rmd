@@ -1,0 +1,16 @@
+# Covariates and causality
+
+## Models for interpretation
+
+When you need to be careful about what you include in the model.
+
+Adjustment
+
+## Sampling bias
+
+E.g survival
+
+Longitudinal versus cross sectional
+
+Matching & Case/control
+
